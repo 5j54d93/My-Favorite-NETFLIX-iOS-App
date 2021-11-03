@@ -11,6 +11,21 @@
 		9C47F2DA27325EDA00F6F74B /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C47F2D927325EDA00F6F74B /* ContentView.swift */; };
 		9C47F2DC27325EDA00F6F74B /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C47F2DB27325EDA00F6F74B /* Assets.xcassets */; };
 		9C47F2DF27325EDA00F6F74B /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C47F2DE27325EDA00F6F74B /* Preview Assets.xcassets */; };
+		9C94ABE22732E36700B34D9C /* AnimeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C94ABE12732E36700B34D9C /* AnimeView.swift */; };
+		9C94ABE42732E4D100B34D9C /* AnimeDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C94ABE32732E4D100B34D9C /* AnimeDetailView.swift */; };
+		9C94ABE82732E9EC00B34D9C /* VideoRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C94ABE72732E9EC00B34D9C /* VideoRow.swift */; };
+		9C94ABED2732FAEC00B34D9C /* 秒速 5 公分.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C94ABE92732FAEC00B34D9C /* 秒速 5 公分.mp3 */; };
+		9C94ABEE2732FAEC00B34D9C /* 追逐繁星的孩子.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C94ABEA2732FAEC00B34D9C /* 追逐繁星的孩子.mp3 */; };
+		9C94ABEF2732FAEC00B34D9C /* 你的名字.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C94ABEB2732FAEC00B34D9C /* 你的名字.mp3 */; };
+		9C94ABF02732FAEC00B34D9C /* 煙花.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 9C94ABEC2732FAEC00B34D9C /* 煙花.mp3 */; };
+		9C94ABF22733035C00B34D9C /* SeriesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C94ABF12733035C00B34D9C /* SeriesView.swift */; };
+		9C94ABF4273304EB00B34D9C /* SeriesDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C94ABF3273304EB00B34D9C /* SeriesDetailView.swift */; };
+		9C94ABF62733072400B34D9C /* PhotoView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9C94ABF52733072300B34D9C /* PhotoView.swift */; };
+		9CB308F82733118700CADF73 /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9CB308F72733118700CADF73 /* AboutView.swift */; };
+		9CB308FE2733181C00CADF73 /* Netflix2@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB308FA2733181C00CADF73 /* Netflix2@3x.png */; };
+		9CB308FF2733181C00CADF73 /* Netflix1@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB308FB2733181C00CADF73 /* Netflix1@3x.png */; };
+		9CB309002733181C00CADF73 /* Netflix1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB308FC2733181C00CADF73 /* Netflix1@2x.png */; };
+		9CB309012733181C00CADF73 /* Netflix2@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 9CB308FD2733181C00CADF73 /* Netflix2@2x.png */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +34,22 @@
 		9C47F2D927325EDA00F6F74B /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		9C47F2DB27325EDA00F6F74B /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		9C47F2DE27325EDA00F6F74B /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		9C94ABE12732E36700B34D9C /* AnimeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeView.swift; sourceTree = "<group>"; };
+		9C94ABE32732E4D100B34D9C /* AnimeDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimeDetailView.swift; sourceTree = "<group>"; };
+		9C94ABE72732E9EC00B34D9C /* VideoRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VideoRow.swift; sourceTree = "<group>"; };
+		9C94ABE92732FAEC00B34D9C /* 秒速 5 公分.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "秒速 5 公分.mp3"; sourceTree = "<group>"; };
+		9C94ABEA2732FAEC00B34D9C /* 追逐繁星的孩子.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "追逐繁星的孩子.mp3"; sourceTree = "<group>"; };
+		9C94ABEB2732FAEC00B34D9C /* 你的名字.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "你的名字.mp3"; sourceTree = "<group>"; };
+		9C94ABEC2732FAEC00B34D9C /* 煙花.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = "煙花.mp3"; sourceTree = "<group>"; };
+		9C94ABF12733035C00B34D9C /* SeriesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesView.swift; sourceTree = "<group>"; };
+		9C94ABF3273304EB00B34D9C /* SeriesDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SeriesDetailView.swift; sourceTree = "<group>"; };
+		9C94ABF52733072300B34D9C /* PhotoView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoView.swift; sourceTree = "<group>"; };
+		9CB308F72733118700CADF73 /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		9CB308F9273316D000CADF73 /* My-Favorite-NETFLIX-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "My-Favorite-NETFLIX-Info.plist"; sourceTree = SOURCE_ROOT; };
+		9CB308FA2733181C00CADF73 /* Netflix2@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Netflix2@3x.png"; sourceTree = "<group>"; };
+		9CB308FB2733181C00CADF73 /* Netflix1@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Netflix1@3x.png"; sourceTree = "<group>"; };
+		9CB308FC2733181C00CADF73 /* Netflix1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Netflix1@2x.png"; sourceTree = "<group>"; };
+		9CB308FD2733181C00CADF73 /* Netflix2@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Netflix2@2x.png"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,9 +82,25 @@
 		9C47F2D627325EDA00F6F74B /* My Favorite NETFLIX */ = {
 			isa = PBXGroup;
 			children = (
+				9CB308F9273316D000CADF73 /* My-Favorite-NETFLIX-Info.plist */,
 				9C47F2D727325EDA00F6F74B /* My_Favorite_NETFLIXApp.swift */,
 				9C47F2D927325EDA00F6F74B /* ContentView.swift */,
+				9C94ABE72732E9EC00B34D9C /* VideoRow.swift */,
+				9C94ABE12732E36700B34D9C /* AnimeView.swift */,
+				9C94ABE32732E4D100B34D9C /* AnimeDetailView.swift */,
+				9C94ABF12733035C00B34D9C /* SeriesView.swift */,
+				9C94ABF3273304EB00B34D9C /* SeriesDetailView.swift */,
+				9C94ABF52733072300B34D9C /* PhotoView.swift */,
+				9CB308F72733118700CADF73 /* AboutView.swift */,
+				9C94ABEC2732FAEC00B34D9C /* 煙花.mp3 */,
+				9C94ABEB2732FAEC00B34D9C /* 你的名字.mp3 */,
+				9C94ABEA2732FAEC00B34D9C /* 追逐繁星的孩子.mp3 */,
+				9C94ABE92732FAEC00B34D9C /* 秒速 5 公分.mp3 */,
 				9C47F2DB27325EDA00F6F74B /* Assets.xcassets */,
+				9CB308FC2733181C00CADF73 /* Netflix1@2x.png */,
+				9CB308FB2733181C00CADF73 /* Netflix1@3x.png */,
+				9CB308FD2733181C00CADF73 /* Netflix2@2x.png */,
+				9CB308FA2733181C00CADF73 /* Netflix2@3x.png */,
 				9C47F2DD27325EDA00F6F74B /* Preview Content */,
 			);
 			path = "My Favorite NETFLIX";
@@ -125,8 +172,16 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CB308FF2733181C00CADF73 /* Netflix1@3x.png in Resources */,
+				9C94ABEF2732FAEC00B34D9C /* 你的名字.mp3 in Resources */,
 				9C47F2DF27325EDA00F6F74B /* Preview Assets.xcassets in Resources */,
+				9C94ABF02732FAEC00B34D9C /* 煙花.mp3 in Resources */,
+				9CB308FE2733181C00CADF73 /* Netflix2@3x.png in Resources */,
 				9C47F2DC27325EDA00F6F74B /* Assets.xcassets in Resources */,
+				9C94ABED2732FAEC00B34D9C /* 秒速 5 公分.mp3 in Resources */,
+				9C94ABEE2732FAEC00B34D9C /* 追逐繁星的孩子.mp3 in Resources */,
+				9CB309012733181C00CADF73 /* Netflix2@2x.png in Resources */,
+				9CB309002733181C00CADF73 /* Netflix1@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -139,6 +194,13 @@
 			files = (
 				9C47F2DA27325EDA00F6F74B /* ContentView.swift in Sources */,
 				9C47F2D827325EDA00F6F74B /* My_Favorite_NETFLIXApp.swift in Sources */,
+				9C94ABF4273304EB00B34D9C /* SeriesDetailView.swift in Sources */,
+				9C94ABE22732E36700B34D9C /* AnimeView.swift in Sources */,
+				9CB308F82733118700CADF73 /* AboutView.swift in Sources */,
+				9C94ABE82732E9EC00B34D9C /* VideoRow.swift in Sources */,
+				9C94ABE42732E4D100B34D9C /* AnimeDetailView.swift in Sources */,
+				9C94ABF22733035C00B34D9C /* SeriesView.swift in Sources */,
+				9C94ABF62733072400B34D9C /* PhotoView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -272,9 +334,9 @@
 				DEVELOPMENT_TEAM = 24SCJHS57L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My-Favorite-NETFLIX-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -301,9 +363,9 @@
 				DEVELOPMENT_TEAM = 24SCJHS57L;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "My-Favorite-NETFLIX-Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
