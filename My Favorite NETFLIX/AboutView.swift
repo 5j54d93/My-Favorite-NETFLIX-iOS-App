@@ -15,92 +15,89 @@ struct AboutView: View {
     @State private var appIcon2 : String = "circle"
     var body: some View {
         NavigationView {
-            ScrollView {
-                if show {
-                    Group {
-                        AsyncImage(url: URL(string: "https://scontent.ftpe5-1.fna.fbcdn.net/v/t1.6435-9/243510986_4346965502091743_8018565325561027515_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=2DaVvoSQIE8AX-euUo4&_nc_ht=scontent.ftpe5-1.fna&oh=7c566004540c2739a44146a70e2f10ba&oe=61A32275")) { image in
-                            image
-                                .resizable()
-                                .scaledToFill()
-                        } placeholder: {
-                            ZStack {
-                                Color.gray
-                                Image(systemName: "rays")
-                                    .resizable()
-                                    .scaledToFit()
-                                    .frame(width: 40, height: 40)
-                                    .rotationEffect(.degrees(rotateDegree))
-                                    .animation(
-                                        .linear(duration: 3.5)
-                                            .repeatForever(autoreverses: false),
-                                        value: rotateDegree
-                                    )
-                                    .onAppear{
-                                        rotateDegree = 360
+                List {
+                    HStack {
+                        Spacer()
+                        VStack {
+                            if show {
+                                Group {
+                                    AsyncImage(url: URL(string: "https://scontent.ftpe5-1.fna.fbcdn.net/v/t1.6435-9/243510986_4346965502091743_8018565325561027515_n.jpg?_nc_cat=100&ccb=1-5&_nc_sid=09cbfe&_nc_ohc=2DaVvoSQIE8AX-euUo4&_nc_ht=scontent.ftpe5-1.fna&oh=7c566004540c2739a44146a70e2f10ba&oe=61A32275")) { image in
+                                        image
+                                            .resizable()
+                                            .scaledToFill()
+                                    } placeholder: {
+                                        ZStack {
+                                            Color.gray
+                                            Image(systemName: "rays")
+                                                .resizable()
+                                                .scaledToFit()
+                                                .frame(width: 40, height: 40)
+                                                .rotationEffect(.degrees(rotateDegree))
+                                                .animation(
+                                                    .linear(duration: 3.5)
+                                                        .repeatForever(autoreverses: false),
+                                                    value: rotateDegree
+                                                )
+                                                .onAppear{
+                                                    rotateDegree = 360
+                                                }
+                                        }
                                     }
+                                    .frame(width: 150, height: 150)
+                                    .clipShape(Circle())
+                                    .overlay(Circle().stroke(Color.white, lineWidth: 4))
+                                    .shadow(radius: 10)
+                                    .padding(.vertical, 15)
+                                    .transition(.opacity)
+                                }
+                                .animation(.default, value: show)
+                            } else {
+                                Color.gray
+                                    .frame(width: 150, height: 150)
+                                    .clipShape(Circle())
+                                    .padding(.vertical, 15)
+                                    .hidden()
                             }
-                        }
-                        .frame(width: 150, height: 150)
-                        .clipShape(Circle())
-                        .overlay(Circle().stroke(Color.white, lineWidth: 4))
-                        .shadow(radius: 10)
-                        .padding(.top, 30)
-                        .transition(.opacity)
-                    }
-                    .animation(.default, value: show)
-                } else {
-                    Color.gray
-                        .frame(width: 150, height: 150)
-                        .clipShape(Circle())
-                        .padding(.top, 30)
-                        .hidden()
-                }
-                
-                Button(show ? "Hide Ricky Chuang" : "Show App Author") {
-                    show.toggle()
-                }
-                .buttonStyle(.borderedProminent)
-                .buttonBorderShape(.capsule)
-                .padding(.vertical, 20)
-                .animation(.default, value: show)
-                
-                Group {
-                    HStack {
-                        Label("社群連結", systemImage: "network")
-                            .foregroundColor(.gray)
-                        Spacer()
-                    }
-                    
-                    Link(destination: URL(string: "https://linktr.ee/5j_54d93")!, label: {
-                        ZStack {
-                            Rectangle()
-                                .fill(LinearGradient(gradient: Gradient(colors: [Color(red: 65/256, green: 228/256, blue: 167/256),Color(red: 44/256, green: 199/256, blue: 133/256)]), startPoint: .leading, endPoint: .trailing))
                             
-                            Label("Linktree", systemImage: "arrow.up.right.square")
-                                .font(.title2)
-                                .foregroundColor(.white)
-                                .padding(.vertical, 8)
+                            Button(show ? "Hide Ricky Chuang" : "Show App Author") {
+                                show.toggle()
+                            }
+                            .buttonStyle(.borderedProminent)
+                            .buttonBorderShape(.capsule)
+                            .padding(.bottom, 15)
+                            .animation(.default, value: show)
                         }
-                    })
-                    
-                    HStack {
-                        Label("App Icon", systemImage: "questionmark.app")
-                            .foregroundColor(.gray)
                         Spacer()
                     }
                     
-                    HStack {
+                    Section {
+                        Link(destination: URL(string: "https://linktr.ee/5j_54d93")!, label: {
+                            Label("Linktree", systemImage: "arrow.up.right.square")
+                                    .font(.title2)
+                        })
+                    } header: {
+                        Label("社群連結", systemImage: "network")
+                    }
+                    Section {
                         Button(action: {
                             UIApplication.shared.setAlternateIconName(nil)
                             appIcon0 = "circle.inset.filled"
                             appIcon1 = "circle"
                             appIcon2 = "circle"
                         }) {
-                            VStack {
+                            HStack {
                                 Image("Netflix0")
                                     .resizable()
                                     .scaledToFill()
+                                    .frame(width: 100, height: 100)
+                                    .cornerRadius(24)
+                                    .padding(.vertical, 10)
                                     .transition(.opacity)
+                                Text("Current")
+                                    .font(.title2)
+                                    .foregroundColor(.black)
+                                    .padding(.leading)
+                                Spacer()
                                 Image(systemName: appIcon0)
                                     .padding(.top, 5)
                             }
@@ -111,11 +108,19 @@ struct AboutView: View {
                             appIcon1 = "circle.inset.filled"
                             appIcon2 = "circle"
                         }) {
-                            VStack {
+                            HStack {
                                 Image("Netflix1")
                                     .resizable()
                                     .scaledToFill()
+                                    .frame(width: 100, height: 100)
+                                    .cornerRadius(24)
+                                    .padding(.vertical, 10)
                                     .transition(.opacity)
+                                Text("Classic")
+                                    .font(.title2)
+                                    .foregroundColor(.black)
+                                    .padding(.leading)
+                                Spacer()
                                 Image(systemName: appIcon1)
                                     .padding(.top, 5)
                             }
@@ -126,21 +131,28 @@ struct AboutView: View {
                             appIcon1 = "circle"
                             appIcon2 = "circle.inset.filled"
                         }) {
-                            VStack {
+                            HStack {
                                 Image("Netflix2")
                                     .resizable()
                                     .scaledToFill()
+                                    .frame(width: 100, height: 100)
+                                    .cornerRadius(24)
+                                    .padding(.vertical, 10)
                                     .transition(.opacity)
+                                Text("Old School")
+                                    .font(.title2)
+                                    .foregroundColor(.black)
+                                    .padding(.leading)
+                                Spacer()
                                 Image(systemName: appIcon2)
                                     .padding(.top, 5)
                             }
                         }
+                    } header: {
+                        Label("App Icon", systemImage: "questionmark.app")
                     }
-                }
-                .padding(.horizontal)
+                }.navigationTitle("App Author")
             }
-            .navigationTitle("App Author")
-        }
     }
 }
 
