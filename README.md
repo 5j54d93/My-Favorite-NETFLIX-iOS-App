@@ -26,8 +26,6 @@ There are three tabs：
 
 <img src="https://github.com/5j54d93/My-Favorite-NETFLIX/blob/main/Photo/About.png" width='100%' height='100%'/>
 
-## My Favorite NETFLIX｜Overview
-
 ## My Favorite NETFLIX｜License：© Ricky Chuang
 
 This package is licensed under MIT license. See [LICENSE](https://github.com/5j54d93/My-Favorite-NETFLIX/blob/main/LICENSE) for details.
