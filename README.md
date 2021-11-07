@@ -8,6 +8,8 @@
 
 This iOS app「My Favorite NETFLIX」list all my favorite movies and series！
 
+YouTube Demo Video：https://youtu.be/AaVTAIDrgtc
+
 There are three tabs：
 
 - Anime：photos、mussic player、external links
