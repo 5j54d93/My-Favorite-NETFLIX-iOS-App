@@ -20,6 +20,10 @@ There are three tabs：
 
 > Series
 
+<img src="https://github.com/5j54d93/My-Favorite-NETFLIX/blob/main/Photo/Series.png" width='100%' height='100%'/>
+
+> About
+
 <img src="" width='100%' height='100%'/>
 
 ## My Favorite NETFLIX｜Overview
