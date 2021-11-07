@@ -1,4 +1,4 @@
-# My Favorite NETFLIX - iOS app
+# My Favorite NETFLIX - an iOS app
 
 [![GitHub license](https://img.shields.io/github/license/5j54d93/My-Favorite-NETFLIX)](https://github.com/5j54d93/My-Favorite-NETFLIX/blob/main/LICENSE)
 ![GitHub contributors](https://img.shields.io/github/contributors/5j54d93/My-Favorite-NETFLIX)
