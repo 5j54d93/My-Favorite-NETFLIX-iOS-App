@@ -12,7 +12,7 @@ There are three `TabView`：
 - [**`SeriesView`**](https://github.com/5j54d93/My-Favorite-NETFLIX-iOS-App/blob/main/My%20Favorite%20NETFLIX/SeriesView.swift)：photos、external links
 - [**`AboutView`**](https://github.com/5j54d93/My-Favorite-NETFLIX-iOS-App/blob/main/My%20Favorite%20NETFLIX/AboutView.swift)：Author、change app icon
 
-> YouTube Demo Video：https://youtu.be/AaVTAIDrgtc
+> YouTube Demo Video：[**youtu.be/AaVTAIDrgtc**](https://youtu.be/AaVTAIDrgtc)
 
 ## Anime
 
