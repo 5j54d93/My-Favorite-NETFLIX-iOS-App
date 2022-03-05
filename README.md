@@ -4,15 +4,15 @@
 ![GitHub Repo stars](https://img.shields.io/github/stars/5j54d93/My-Favorite-NETFLIX-iOS-App)
 ![GitHub repo size](https://img.shields.io/github/repo-size/5j54d93/My-Favorite-NETFLIX-iOS-App)
 
-This iOS app「My Favorite NETFLIX」list all my favorite movies and series！
+An iOS App that list all my favorite movies and series on NETFLIX！
 
-YouTube Demo Video：https://youtu.be/AaVTAIDrgtc
+There are three `TabView`：
 
-There are three tabs：
+- [**`AnimeView`**](https://github.com/5j54d93/My-Favorite-NETFLIX-iOS-App/blob/main/My%20Favorite%20NETFLIX/AnimeView.swift)：photos、mussic player、external links
+- [**`SeriesView`**](https://github.com/5j54d93/My-Favorite-NETFLIX-iOS-App/blob/main/My%20Favorite%20NETFLIX/SeriesView.swift)：photos、external links
+- [**`AboutView`**](https://github.com/5j54d93/My-Favorite-NETFLIX-iOS-App/blob/main/My%20Favorite%20NETFLIX/AboutView.swift)：Author、change app icon
 
-- Anime：photos、mussic player、external links
-- Series：photos、external links
-- About：Author、change app icon
+> YouTube Demo Video：https://youtu.be/AaVTAIDrgtc
 
 ## Anime
 
