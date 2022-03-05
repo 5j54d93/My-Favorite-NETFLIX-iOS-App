@@ -16,15 +16,15 @@ There are three `TabView`：
 
 ## Anime
 
-<img src="https://github.com/5j54d93/My-Favorite-NETFLIX/blob/main/Photo/Anime.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/My-Favorite-NETFLIX/blob/main/.github/assets/Anime.png" width='100%' height='100%'/>
 
 ## Series
 
-<img src="https://github.com/5j54d93/My-Favorite-NETFLIX/blob/main/Photo/Series.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/My-Favorite-NETFLIX/blob/main/.github/assets/Series.png" width='100%' height='100%'/>
 
 ## About
 
-<img src="https://github.com/5j54d93/My-Favorite-NETFLIX/blob/main/Photo/About.png" width='100%' height='100%'/>
+<img src="https://github.com/5j54d93/My-Favorite-NETFLIX/blob/main/.github/assets/About.png" width='100%' height='100%'/>
 
 ## License：MIT
 
